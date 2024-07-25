@@ -1,0 +1,26 @@
+[package]
+name = "ag"
+version = "1.0.0"
+authors = ["Kamil Bicz"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.3"
+systemstat = "0.2.0"
+chrono = "0.4.19"
+gnuplot = "0.0.37"
+libm = "0.2.1"
+indicatif = "0.17.1"
+polyfit-rs = "0.2.0"
+ansi_term = "0.12.1"
+
+[[bin]]
+name = "wroclaw_profile_ea"
+path = "src/main.rs"
+
+
+[profile.release]
+lto = "thin"
+opt-level = 3
