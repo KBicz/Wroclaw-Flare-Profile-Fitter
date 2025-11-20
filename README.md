@@ -3,9 +3,8 @@ Software written in Rust for any operational system to fit Wrocław Flare Profil
 
 To compile the code enter the downloaded folder where the src folder and Cargo.toml file are and type in terminal "cargo build --release"
 
- Program nprofileitter for Windows, Linux, and Mac, written by K. Bicz, version of 06 dec 2024.
- Usage: nprofileitter <-lc=file> [-nrpof=int] [-npop=int] [-niter=int] [--constb] [--normback]
-                                 [--noback] [--plot] [--save]
+    Usage: nprofileitter <-lc=file> [-nrpof=int] [-npop=int] [-niter=int] [--constb] [--normback]
+                         [--noback] [--plot] [--save]
 
               option -lc        : light curve file name.
                      -nprof     : number of profiles (default nprof = 1).
